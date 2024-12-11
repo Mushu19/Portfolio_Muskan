@@ -1,0 +1,166 @@
+<style>
+    .btn-primary {
+        .first-panel {
+  background-color: rgba(200, 150, 255, 0.3);
+  padding: 0px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+}
+.hero {
+    position: relative;
+    padding: 130px 90px;
+    background-color: #fafafa;
+    overflow: hidden;
+}
+.hero-background-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Georgia serif;
+    font-size: 12rem;
+    color:#f2e3f7;
+    z-index: 1;
+    white-space: nowrap;
+}
+.hero-text {
+    position: relative;
+    z-index: 2;
+    max-width: 50%;
+}
+.hero-text h1 {
+    font-size: 6rem;
+    font-family: Georgia serif;
+    color: #7f11a8;
+    margin: 0;
+    position: relative;
+    line-height: 1;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+}
+.hero-text p {
+    margin: 20px 0;
+    font-size: 1.2rem;
+}
+header.hero-section {
+    margin-bottom: 0; 
+    padding-bottom: 0; 
+}
+section.hero {
+    margin-top: 50; 
+    padding-top: 20; 
+}
+.hero img {
+    max-width: 40%;
+    height: auto;
+    border-radius: 8px;
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    transform: translateY(-50%);
+    z-index: 2;
+}
+.hero-section .background-shape {
+  position: absolute;
+  top: -50px;
+  right: -50px;
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(135deg, #d6c1e8, #f9f9ff);
+  border-radius: 50%;
+  z-index: -1;
+  opacity: 0.7;
+}
+.hero-section .background-shape-left {
+  top: auto;
+  bottom: -50px;
+  left: -50px;
+  right: auto;
+  background: linear-gradient(135deg, #f9f9ff, #d6c1e8);
+}
+
+.btn {
+    background-color: #6a0dad;
+    color: white; 
+    padding: 0.75rem 2rem; 
+    border-radius: 30px;
+  }
+  .btn:hover {
+    background-color: #8a2be2; 
+  }
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+.hero-section {
+    margin-bottom: 3rem; 
+  }
+.card-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+}
+.card-text {
+    font-size: 0.95rem;
+    color: #6c757d;
+}
+</style>
+.carousel-inner img {
+    border-radius: 10px;
+  }
+.carousel-caption {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.6);
+    padding: 10px 20px;
+    color: #0f0f0f;
+    border-radius: 8px;
+    text-align: center;
+    max-width: 60%;
+    font-size: 1.1rem;
+    line-height: 1.4;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  }
+  .carousel-caption h5 {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+  .carousel-caption p {
+    margin: 7px 0;
+    font-size: 1rem;
+  }
+
+#portfolioCarousel {
+    width: 80%; 
+    max-width: 1000px; 
+    margin: 2rem auto; 
+    height: 600px; 
+    overflow: hidden;
+  }
+  #portfolioCarousel .carousel-inner {
+    height: 100%;
+  }
+  #portfolioCarousel img {
+    object-fit: cover; 
+    height: 100%;
+    width: 100%;
+  }
+  .carousel-caption {
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 8px 15px;
+    color: #fbf9f9;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+  
+  
